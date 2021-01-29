@@ -1,0 +1,11 @@
+POST http://localhost:3003/student
+content-type: application/json
+ {
+    "name": "Jose",
+    "email": "jose@gmail.com",
+    "birthday": "22/09/1991"
+}
+
+###
+
+http://localhost:3003/teacher/table
